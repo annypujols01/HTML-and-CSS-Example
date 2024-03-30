@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-container {
+    color: black;
+    background-color: rgb(214, 95, 95);
+    font-family: "Cursive", Courier, monospace;
+    font-size: 40px;
+    padding: 25px 0;
+    display: flex;
+    justify-content: center;}
+
+    .container {
+        display: flex;
+        justify-content: center;
+      }
+      .perfumes {
+        display: flex;
+        background-color: rgb(236, 174, 123);
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 5px;
+        max-width: 980px;
+        align-items: center;}
+
+        .perfumes img{
+            display: flex;
+            background-color: whitesmoke;
+            width: 20%;
+            justify-content: space-around;
+            padding: 12px;
+        }
